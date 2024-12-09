@@ -1,0 +1,23 @@
+{
+  "compilerOptions": {
+    "target": "es6",
+    "module": "commonjs",
+    "strict": true,
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "moduleResolution": "node",
+    "sourceMap": true,
+    "outDir": "./dist",
+    "resolveJsonModule": true
+  },
+  "lib": ["es2015"],
+  "include": [
+    "models/**/*",
+    "module/**/*",
+    "routes/**/*",
+    "services/**/*",
+    "src/**/*",
+    "tests/**/*"
+  ],
+  "exclude": ["node_modules", "dist"]
+}
