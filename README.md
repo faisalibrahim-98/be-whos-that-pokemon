@@ -18,3 +18,8 @@ The verify api takes the id and the selected answer from the frontend. It gets t
 1. To run the test casess, simple run the command npm run test.
 2. To generate coverage report, run command npm run test --coverage.
 3. Go to coverage/icov-report/index.html. Open this file in your browser to see coverage report.
+
+# Screenshots
+
+- Strucutre
+  ![screenshot](structure/Backend.JPG)
